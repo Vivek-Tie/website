@@ -1,0 +1,3 @@
+var selectors=".wolf-core-video-opener, .wolf-core-video-opener-container a";document.querySelectorAll(selectors).forEach((el)=>{var videoUrl=el.dataset.videoUrl
+el.addEventListener('click',(e)=>{e.preventDefault()
+jQuery.fancybox.open({src:videoUrl,});})})
